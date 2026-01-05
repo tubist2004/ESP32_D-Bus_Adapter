@@ -1,0 +1,238 @@
+(footprint "TE_2040852-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d13bd91f-3f51-4f28-917f-0f0cb77c697a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TE_2040852-1"
+		(at 0 2.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "166c7606-d072-45fa-8fbc-73d6033a6761")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "630a7fea-aeb8-4b9b-8c7e-2ce97fdabdb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b703ffe-cf39-4f71-9933-200c11725326")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.9 -1.25)
+		(end 1.9 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b7ed9973-e5ac-4e1b-b7d5-dc2696f0dc0e")
+	)
+	(fp_line
+		(start -1.7 -1)
+		(end 1.7 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d078233e-437e-4b2d-bfeb-4976d20ec128")
+	)
+	(fp_line
+		(start -1.7 1)
+		(end -1.7 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2f901642-16a8-44ba-bf4c-47637167cd28")
+	)
+	(fp_line
+		(start -0.6 -0.6)
+		(end -0.6 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7799a0b5-0868-4b43-a907-4a6120e963b3")
+	)
+	(fp_line
+		(start -0.6 -0.4)
+		(end 1.4 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3d37815a-6c97-45c0-a5ba-fd2024eeba16")
+	)
+	(fp_line
+		(start -0.6 0.4)
+		(end -0.6 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "17b263e8-a125-41ec-9851-e1705f5423d7")
+	)
+	(fp_line
+		(start -0.6 0.6)
+		(end 1.7 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "406e892b-c5f1-40ca-b293-46250838dc82")
+	)
+	(fp_line
+		(start 1.4 -0.3)
+		(end 1.4 0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9e264cb5-9f4d-4275-a8a6-f9c39f0d1263")
+	)
+	(fp_line
+		(start 1.4 0.3)
+		(end -0.6 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "662e91b1-2f37-4613-843b-478cab89c739")
+	)
+	(fp_line
+		(start 1.7 -1)
+		(end 1.7 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "afbf4ca4-5719-4e63-bcda-b1821c24f4e3")
+	)
+	(fp_line
+		(start 1.7 -0.6)
+		(end -0.6 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2bfffa75-9bcc-4cb8-b5fd-a1b1041c6250")
+	)
+	(fp_line
+		(start 1.7 0.6)
+		(end 1.7 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "64b89c78-1886-4f87-acaa-cbb12463a733")
+	)
+	(fp_line
+		(start 1.7 1)
+		(end -1.7 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "719e2493-a694-44df-b49a-51f541f833e1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aefef369-241b-4f2e-96db-2258f735886b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.95 -0.8)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "9626215e-b4a4-40d0-b8a5-3ebb82482e35")
+	)
+	(pad "1" smd roundrect
+		(at 0.95 0.8)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "6447a1f5-de9a-427f-8018-713d65f4cca0")
+	)
+	(embedded_fonts no)
+	(model "/home/markus/projekte/016_homeautomation/016_04_bsh/hardware/parts/RAST2.5_Connectors/TE_2040852-1_uncompressed.step"
+		(hide yes)
+		(offset
+			(xyz -1.7 0 0.13)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "/home/markus/projekte/016_homeautomation/016_04_bsh/hardware/parts/RAST2.5_Connectors/TE_2040852-1_compressed_0.3.step"
+		(offset
+			(xyz -1.7 0 0.13)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

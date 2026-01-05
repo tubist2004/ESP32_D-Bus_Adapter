@@ -1,0 +1,229 @@
+(footprint "TE_1447360-8"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "328aac7f-c48e-4dd1-96f9-624181153fcb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TE_1447360-8"
+		(at 0.004002 1.968439 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c1b209d1-882c-43c2-b07b-d538c22021a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56452e30-79b8-411b-92ab-93928f55a8ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7628dd52-ee7c-4603-b3d0-9ee8036654a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.9 -0.75)
+		(end 1.9 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5bebf5c9-4f49-49f5-9ba2-37c0326181e1")
+	)
+	(fp_line
+		(start -2.75 -0.6)
+		(end 1.55 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "996c3adb-e214-4622-9ef2-0bde32720ae4")
+	)
+	(fp_line
+		(start -2.75 0.6)
+		(end -2.75 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d958a6bf-51f2-4544-88ea-9d13fddc24dc")
+	)
+	(fp_line
+		(start -0.75 -0.35)
+		(end -0.75 0.35)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.Fab")
+		(uuid "fdb3360c-396a-4d3e-8274-39e1887e8d24")
+	)
+	(fp_line
+		(start -0.05 -0.35)
+		(end -0.05 0.35)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.Fab")
+		(uuid "982a0c59-218f-4cd3-b76d-c01b04a03e3a")
+	)
+	(fp_line
+		(start 0.25 -0.5)
+		(end -2.75 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "240d548f-0b48-443a-8824-538a7487ae33")
+	)
+	(fp_line
+		(start 0.25 0.5)
+		(end -2.75 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6698c7c4-2090-4650-b219-f417c25d51bc")
+	)
+	(fp_line
+		(start 0.25 0.5)
+		(end 0.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8384c29b-bf5a-4818-9c1a-18394dfedc56")
+	)
+	(fp_line
+		(start 1.55 -0.6)
+		(end 1.55 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "aa9001d9-5470-44cd-acb8-bc245cfa5de6")
+	)
+	(fp_line
+		(start 1.55 -0.25)
+		(end 1.75 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0df336d7-8731-46a0-a51a-a924bde21191")
+	)
+	(fp_line
+		(start 1.55 0.25)
+		(end 1.55 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b7642b06-9831-45ff-b190-5bd6d5081617")
+	)
+	(fp_line
+		(start 1.55 0.6)
+		(end -2.75 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "504e83f9-7e52-41b9-a468-484712ef3056")
+	)
+	(fp_line
+		(start 1.75 -0.25)
+		(end 1.75 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "acd5aaa7-dfb8-4a5f-abde-8e2cac4f0d8d")
+	)
+	(fp_line
+		(start 1.75 0.25)
+		(end 1.55 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2b754850-e9ec-482d-a7b2-b79a85bd91d5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aefef369-241b-4f2e-96db-2258f735886b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 3.5 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "6447a1f5-de9a-427f-8018-713d65f4cca0")
+	)
+	(embedded_fonts no)
+	(model "/home/markus/projekte/016_homeautomation/016_04_bsh/hardware/parts/RAST2.5_Connectors/TE_1447360-8_compressed_1mm.step"
+		(offset
+			(xyz 1.75 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

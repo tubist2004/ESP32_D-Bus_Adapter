@@ -1,0 +1,8 @@
+# kicad backup and cache
+*-backups
+backups
+fp-info-cache
+fp-lib-table
+# FreeCAD backup files
+*.FCBak
+
