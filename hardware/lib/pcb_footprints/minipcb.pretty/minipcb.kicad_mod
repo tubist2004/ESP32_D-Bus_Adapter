@@ -1,0 +1,288 @@
+(footprint "minipcb"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.8 -1.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "280e4182-a9ee-48cb-81de-9caf4cb3e3ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "minipcb"
+		(at 4.5 2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "76507abf-7296-4e23-b8ce-76874d0972ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3bc7c757-b852-4f44-aaf8-242f86a5c0f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20ebdd61-c349-472a-8ef0-ccc0c906e04e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.35 0.05)
+		(end -0.35 -0.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "507543eb-0bf9-4b20-ac77-74fd11be27e1")
+	)
+	(fp_line
+		(start 0.25 -0.65)
+		(end 3.55 -0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "727ee95d-2632-4e04-90f7-4ef3646705b6")
+	)
+	(fp_line
+		(start 3.55 0.65)
+		(end 0.25 0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b7c7164b-14c2-49c3-9155-403dd96dd9ef")
+	)
+	(fp_line
+		(start 4.15 -0.05)
+		(end 4.15 0.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fe538500-2479-4089-a877-394f6efc4e9b")
+	)
+	(fp_line
+		(start 6.25 0.05)
+		(end 6.25 -0.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "267b576e-faed-4b0a-b11f-17054aad208e")
+	)
+	(fp_line
+		(start 6.85 -0.65)
+		(end 7.35 -0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1923d596-1857-4a43-9a43-9500e7a900a6")
+	)
+	(fp_line
+		(start 7.35 0.65)
+		(end 6.85 0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "76bd4cb6-0106-4d9a-937e-e11d4cca0c83")
+	)
+	(fp_line
+		(start 7.95 -0.05)
+		(end 7.95 0.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1f17dc1c-b09f-4165-a68b-47d429a0c3c3")
+	)
+	(fp_arc
+		(start -0.35 -0.05)
+		(mid -0.174264 -0.474264)
+		(end 0.25 -0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7e1020e8-2109-4856-a114-9ed9b1c94281")
+	)
+	(fp_arc
+		(start 0.25 0.65)
+		(mid -0.174264 0.474264)
+		(end -0.35 0.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cbfcba00-dc33-47e5-96b2-bce8bd62af32")
+	)
+	(fp_arc
+		(start 3.55 -0.65)
+		(mid 3.974264 -0.474264)
+		(end 4.15 -0.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bde72202-318e-437f-af47-fe5d5efe8edd")
+	)
+	(fp_arc
+		(start 4.15 0.05)
+		(mid 3.974264 0.474264)
+		(end 3.55 0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e27af40e-0dc3-4460-8a95-893c9b4bb760")
+	)
+	(fp_arc
+		(start 6.25 -0.05)
+		(mid 6.425736 -0.474264)
+		(end 6.85 -0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fed6efae-ffe2-47f9-98c3-16ca26959b0a")
+	)
+	(fp_arc
+		(start 6.85 0.65)
+		(mid 6.425736 0.474264)
+		(end 6.25 0.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "987b0210-1456-4960-b8af-87b9046290e9")
+	)
+	(fp_arc
+		(start 7.35 -0.65)
+		(mid 7.774264 -0.474264)
+		(end 7.95 -0.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dcaa21ec-d221-4dc5-9ba6-16d1c4664a58")
+	)
+	(fp_arc
+		(start 7.95 0.05)
+		(mid 7.774264 0.474264)
+		(end 7.35 0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "80713ad2-52e8-4283-83df-33878983b1d9")
+	)
+	(fp_rect
+		(start 0 -0.5)
+		(end 8 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e88f8f70-3a55-4a04-9a55-088361a2e0a2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.2 3.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "36590b21-a1e5-4fc4-bccd-7e237561a9b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.7 -1.1)
+		(size 0.8 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "c22b9b68-9408-470a-b08b-ad831168fd6c")
+	)
+	(pad "2" smd roundrect
+		(at 2 -1.1)
+		(size 0.8 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "692c3925-8a2e-4f10-9713-19def9087d3b")
+	)
+	(pad "3" smd roundrect
+		(at 3.3 -1.1)
+		(size 0.8 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "006418cc-dca4-4628-8866-a0da38aa7368")
+	)
+	(pad "4" smd roundrect
+		(at 7.13 -1.1)
+		(size 0.8 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "8d269bd2-bbfc-41fd-8434-16372778fd5b")
+	)
+	(embedded_fonts no)
+	(model "/home/markus/projekte/016_homeautomation/ESP32_D-Bus_Adapter/hardware/miniadapter/production/board_minipcb/minipcb.step"
+		(offset
+			(xyz -100 -0.5 -102)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

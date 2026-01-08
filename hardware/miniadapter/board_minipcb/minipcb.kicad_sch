@@ -2712,6 +2712,12 @@
 		)
 	)
 	(junction
+		(at 171.45 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1327d1a1-3552-4485-96bf-c833aaec0cfb")
+	)
+	(junction
 		(at 110.49 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2742,6 +2748,18 @@
 		(uuid "52444f13-b108-4ba7-87b5-59fb79178903")
 	)
 	(junction
+		(at 171.45 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fae46b0-4494-4ced-91b4-2ddac697ca71")
+	)
+	(junction
+		(at 171.45 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b79bc3d-20b6-46d8-a5e4-a7a65c60785a")
+	)
+	(junction
 		(at 93.98 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2764,6 +2782,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d65cd1de-5dca-4676-8d81-f18707852f22")
+	)
+	(junction
+		(at 171.45 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8fbfa56-1367-4077-ac4d-d5b4379d6df7")
 	)
 	(junction
 		(at 134.62 129.54)
@@ -2797,6 +2821,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 118.11) (xy 171.45 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba28f5b-25eb-447a-b884-f6416d55e900")
+	)
+	(wire
+		(pts
+			(xy 171.45 118.11) (xy 163.83 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131907bb-6992-4bb9-bd12-f4f689b929e3")
+	)
+	(wire
+		(pts
 			(xy 160.02 137.16) (xy 160.02 139.7)
 		)
 		(stroke
@@ -2804,6 +2848,16 @@
 			(type default)
 		)
 		(uuid "1721297f-7e09-47da-ba2e-9ca7e7b2e2b8")
+	)
+	(wire
+		(pts
+			(xy 173.99 99.06) (xy 171.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4c92a1-da94-4a84-9950-44b46687f626")
 	)
 	(wire
 		(pts
@@ -2827,7 +2881,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 69.85) (xy 161.29 69.85)
+			(xy 173.99 69.85) (xy 171.45 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2854,6 +2908,16 @@
 			(type default)
 		)
 		(uuid "2b5af2d5-a250-46bb-94c7-e5f32364fc0f")
+	)
+	(wire
+		(pts
+			(xy 173.99 104.14) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325ef394-289a-4445-bc4d-6349d91bff20")
 	)
 	(wire
 		(pts
@@ -2884,6 +2948,16 @@
 			(type default)
 		)
 		(uuid "3cc45b4c-3c57-4824-bf36-c7f71f4aa1f3")
+	)
+	(wire
+		(pts
+			(xy 173.99 142.24) (xy 171.45 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e328b29-e429-4ac7-a793-5a6832e0c8a3")
 	)
 	(wire
 		(pts
@@ -2987,6 +3061,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 142.24) (xy 171.45 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7525db-91b1-48c6-816e-9d2f76e635a2")
+	)
+	(wire
+		(pts
 			(xy 138.43 80.01) (xy 147.32 80.01)
 		)
 		(stroke
@@ -2997,6 +3081,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 69.85) (xy 161.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7304bd6b-f5b1-4b37-9a36-6e05763abd65")
+	)
+	(wire
+		(pts
 			(xy 111.76 80.01) (xy 125.73 80.01)
 		)
 		(stroke
@@ -3004,6 +3098,16 @@
 			(type default)
 		)
 		(uuid "737ffae5-9296-4645-847a-dcb9801f8e09")
+	)
+	(wire
+		(pts
+			(xy 171.45 99.06) (xy 163.83 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d891af9-1745-4197-a47e-c9a40581280b")
 	)
 	(wire
 		(pts
@@ -3027,6 +3131,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 118.11) (xy 171.45 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe732ed-8480-4903-a871-7da66d951de3")
+	)
+	(wire
+		(pts
 			(xy 134.62 129.54) (xy 140.97 129.54)
 		)
 		(stroke
@@ -3037,7 +3151,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 137.16) (xy 160.02 137.16)
+			(xy 171.45 99.06) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92259003-f225-43cd-8f55-6bf566846a3a")
+	)
+	(wire
+		(pts
+			(xy 173.99 137.16) (xy 171.45 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3227,6 +3351,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 74.93) (xy 171.45 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d777f454-f85a-4d7f-bd55-52eb9a1091d3")
+	)
+	(wire
+		(pts
+			(xy 171.45 69.85) (xy 171.45 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d3845c-e7e9-4ba7-a39b-ab711ec4f941")
+	)
+	(wire
+		(pts
 			(xy 161.29 69.85) (xy 161.29 67.31)
 		)
 		(stroke
@@ -3257,6 +3401,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 137.16) (xy 160.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2db57d-5c18-4253-8b31-521923d9fd0b")
+	)
+	(wire
+		(pts
 			(xy 111.76 80.01) (xy 111.76 77.47)
 		)
 		(stroke
@@ -3274,6 +3428,16 @@
 			(type default)
 		)
 		(uuid "de4680c5-c88a-461e-96ea-7438def2d9d1")
+	)
+	(wire
+		(pts
+			(xy 173.99 123.19) (xy 171.45 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e048e45a-cdf9-4825-b663-a267e0744227")
 	)
 	(wire
 		(pts
@@ -4104,16 +4268,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 166.37 118.11 270)
+		(at 176.53 104.14 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "4c027051-e13f-4619-b88c-e2199ef9c7b2")
-		(property "Reference" "H105"
-			(at 172.72 118.11 0)
+		(uuid "3e593ae4-7bf7-4985-b57b-1e8523723d8d")
+		(property "Reference" "H109"
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4285,7 @@
 			)
 		)
 		(property "Value" "Pad"
-			(at 170.815 118.11 0)
+			(at 180.975 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,7 +4293,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
-			(at 166.37 118.11 0)
+			(at 176.53 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,7 +4302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 118.11 0)
+			(at 176.53 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4311,72 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 166.37 118.11 0)
+			(at 176.53 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5076ca6-515c-4751-8e61-66bdaafded76")
+		)
+		(instances
+			(project "minipcb"
+				(path "/33765bfc-d9cb-4fcc-9a30-add9ce2b848e"
+					(reference "H109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 176.53 99.06 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c027051-e13f-4619-b88c-e2199ef9c7b2")
+		(property "Reference" "H105"
+			(at 182.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pad"
+			(at 180.975 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
+			(at 176.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +4790,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 166.37 99.06 270)
+		(at 176.53 137.16 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4570,7 +4799,7 @@
 		(dnp no)
 		(uuid "57858e3a-19da-45af-a1f6-1ed97486af56")
 		(property "Reference" "H107"
-			(at 172.72 99.06 0)
+			(at 182.88 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,7 +4807,7 @@
 			)
 		)
 		(property "Value" "Pad"
-			(at 170.815 99.06 0)
+			(at 180.975 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,7 +4815,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
-			(at 166.37 99.06 0)
+			(at 176.53 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +4824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 99.06 0)
+			(at 176.53 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +4833,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 166.37 99.06 0)
+			(at 176.53 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,6 +4917,71 @@
 			(project ""
 				(path "/33765bfc-d9cb-4fcc-9a30-add9ce2b848e"
 					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 176.53 142.24 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "64f11b18-5e12-4ad5-827f-f871b2718120")
+		(property "Reference" "H111"
+			(at 182.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pad"
+			(at 180.975 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1aa81f81-7d13-4888-9bad-85754c421972")
+		)
+		(instances
+			(project "minipcb"
+				(path "/33765bfc-d9cb-4fcc-9a30-add9ce2b848e"
+					(reference "H111")
 					(unit 1)
 				)
 			)
@@ -4938,6 +5232,71 @@
 			(project ""
 				(path "/33765bfc-d9cb-4fcc-9a30-add9ce2b848e"
 					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 176.53 123.19 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "78439a9e-d8af-4db7-91f8-3a1ae2fc5f6d")
+		(property "Reference" "H110"
+			(at 182.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pad"
+			(at 180.975 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
+			(at 176.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 176.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "877e7359-9666-4e83-8eea-b70dc15e3059")
+		)
+		(instances
+			(project "minipcb"
+				(path "/33765bfc-d9cb-4fcc-9a30-add9ce2b848e"
+					(reference "H110")
 					(unit 1)
 				)
 			)
@@ -5209,7 +5568,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 166.37 137.16 270)
+		(at 176.53 69.85 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5218,7 +5577,7 @@
 		(dnp no)
 		(uuid "8ff4321c-cd0b-404f-b368-ad37c9437fba")
 		(property "Reference" "H106"
-			(at 172.72 137.16 0)
+			(at 182.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5585,7 @@
 			)
 		)
 		(property "Value" "Pad"
-			(at 170.815 137.16 0)
+			(at 180.975 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +5593,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
-			(at 166.37 137.16 0)
+			(at 176.53 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +5602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 137.16 0)
+			(at 176.53 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,7 +5611,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 166.37 137.16 0)
+			(at 176.53 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +6976,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 166.37 69.85 270)
+		(at 176.53 118.11 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6626,7 +6985,7 @@
 		(dnp no)
 		(uuid "e49d6373-39a7-40f8-8cf8-1aeeb7db7834")
 		(property "Reference" "H104"
-			(at 172.72 69.85 0)
+			(at 182.88 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6634,7 +6993,7 @@
 			)
 		)
 		(property "Value" "Pad"
-			(at 170.815 69.85 0)
+			(at 180.975 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +7001,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
-			(at 166.37 69.85 0)
+			(at 176.53 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +7010,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 69.85 0)
+			(at 176.53 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +7019,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 166.37 69.85 0)
+			(at 176.53 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,6 +7164,71 @@
 			(project "minipcb"
 				(path "/33765bfc-d9cb-4fcc-9a30-add9ce2b848e"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 176.53 74.93 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f200a0c6-b43d-47ee-b70d-1abac2a5daa4")
+		(property "Reference" "H108"
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pad"
+			(at 180.975 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1.5x3mm"
+			(at 176.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 176.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39cf0860-a20d-4a2b-8450-354461a96b0e")
+		)
+		(instances
+			(project "minipcb"
+				(path "/33765bfc-d9cb-4fcc-9a30-add9ce2b848e"
+					(reference "H108")
 					(unit 1)
 				)
 			)
