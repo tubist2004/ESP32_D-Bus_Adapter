@@ -620,9 +620,9 @@
         },
         {
           "group_by": false,
-          "label": "OC_JLCPCB",
+          "label": "LCSC Part #",
           "name": "OC_JLCPCB",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -707,8 +707,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "OC_JLCPCB"
     },
     "connection_grid_size": 50.0,
     "drawing": {

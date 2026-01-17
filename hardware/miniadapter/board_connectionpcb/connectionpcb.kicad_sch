@@ -899,6 +899,15 @@
 				(hide yes)
 			)
 		)
+		(property "OC_JLC" "C2925416"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3f8918c8-da31-4c41-888f-f04a83023d2f")
 		)

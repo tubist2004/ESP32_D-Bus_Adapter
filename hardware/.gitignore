@@ -4,6 +4,9 @@ backups
 fp-info-cache
 fp-lib-table
 ~*.lck
+
 # FreeCAD backup files
 *.FCBak
 
+# Taskfile
+**/.task

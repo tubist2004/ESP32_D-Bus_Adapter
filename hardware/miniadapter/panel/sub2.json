@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "hspace": "1.2mm",
+    "vspace": "1.2mm",
+    "vbackbone": "3mm",
+    "rows": "12",
+    "cols": "2",
+    "vbonecut": "False",
+    "hbonecut": "true",
+    "input": "board_connectionpcb/connectionpcb.kicad_pcb"
+  },
+  "cuts": {
+    "type": "mousebites",
+    "drill": "0.3mm",
+    "spacing": "0.5mm"
+  },
+  "tabs": { "type": "annotation" },
+  "framing": {
+    "type": "frame",
+    "hspace": "1.2mm",
+    "vspace": "2.7mm",
+    "width": "5mm",
+    "cuts": "v"
+  }
+}

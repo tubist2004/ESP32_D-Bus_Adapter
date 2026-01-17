@@ -1,0 +1,84 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: "3"
+
+vars:
+  KIKIT: PYTHONPATH=/usr/lib/python3/dist-packages/ kikit
+  IMGWIDTH: 640
+  IMGHEIGHT: 480
+
+tasks:
+  default:
+    desc: Generate kicad output files
+    deps:
+      - doc
+      - prod
+    silent: true
+
+  panel:
+    sources:
+      - ./board_minipcb/minipcb.kicad_pcb
+      - ./board_connectionpcb/connectionpcb.kicad_pcb
+      - ./panel/subpanelize.py
+      - ./panel/all.json
+      - ./panel/sub1.json
+      - ./panel/sub2.json
+    generates:
+      - ./panel/panel.kicad_pcb
+      - ./panel/panel_0.kicad_pcb
+      - ./panel/panel_1.kicad_pcb
+      - ./panel/panel_joined.kicad_pcb
+    cmds:
+      - python3 ./panel/subpanelize.py
+
+  doc:
+    sources:
+      - board_*/*.kicad_sch
+    deps:
+      - pics
+    cmds:
+      - for: sources
+        cmd: kicad-cli sch export pdf -n --output {{.ITEM | replace ".kicad_sch" ".pdf"}} {{.ITEM}}
+
+  prod:
+    vars:
+      FAB: jlcpcb --no-drc
+    deps:
+      - panel
+      - steps
+    sources:
+      - ./board_*/*.kicad_pcb
+      - ./panel/panel.kicad_pcb
+    cmds:
+      - for: sources
+        cmd: '{{.KIKIT}} fab jlcpcb --no-drc --field OC_JLCPCB --schematic {{.ITEM | replace ".kicad_pcb" ".kicad_sch"}} --assembly ./panel/panel.kicad_pcb ./panel/production'
+
+  pics:
+    vars:
+      RENDER: pcb render -w {{.IMGWIDTH}} -h {{.IMGHEIGHT}} --rotate
+      TWEAK_EXIT_VAL: "|| echo"
+    sources:
+      - ./board_*/*.kicad_pcb
+      - ./panel/panel.kicad_pcb
+    generates:
+      - ./board_*/*01.png
+      - ./board_*/*02.png
+      - ./panel/panel01.png
+      - ./panel/panel02.png
+    cmds:
+      - for: sources
+        cmd: kicad-cli {{.RENDER}} "'-45,0,45'" --output {{.ITEM | replace ".kicad_pcb" "01.png"}} {{.ITEM}} {{.TWEAK_EXIT_VAL}}
+      - for: sources
+        cmd: kicad-cli {{.RENDER}} "'-225,0,-45'" --output {{.ITEM | replace ".kicad_pcb" "02.png"}} {{.ITEM}} {{.TWEAK_EXIT_VAL}}
+
+  step:
+    vars:
+      STEP: pcb export step
+      TWEAK_EXIT_VAL: "|| echo"
+    sources:
+      - ./board_*/*.kicad_pcb
+    generates:
+      - ./board_*/*.step
+    cmds:
+      - for: sources
+        cmd: kicad-cli {{.STEP}} --output {{.ITEM | replace ".kicad_pcb" ".step"}} {{.ITEM}} {{.TWEAK_EXIT_VAL}}

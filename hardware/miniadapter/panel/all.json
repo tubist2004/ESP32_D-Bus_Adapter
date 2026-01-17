@@ -1,0 +1,22 @@
+{
+  "layout": {
+    "alternation": "rows",
+    "hspace": "-5mm",
+    "rows": "1",
+    "cols": "1",
+    "subpanels": ["panel/sub1.json", "panel/sub2.json"],
+    "output": "panel/panel.kicad_pcb"
+  },
+  "cuts": {
+    "type": "mousebites",
+    "drill": "0.3mm",
+    "spacing": "0.5mm"
+  },
+  "page": {
+    "type": "A4"
+  },
+  "tabs": { "type": "annotation" },
+  "post": {
+    "millradius": "0.6mm"
+  }
+}
