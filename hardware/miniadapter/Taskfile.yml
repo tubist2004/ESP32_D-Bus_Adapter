@@ -45,10 +45,9 @@ tasks:
       FAB: jlcpcb --no-drc
     deps:
       - panel
-      - steps
+      - step
     sources:
       - ./board_*/*.kicad_pcb
-      - ./panel/panel.kicad_pcb
     cmds:
       - for: sources
         cmd: '{{.KIKIT}} fab jlcpcb --no-drc --field OC_JLCPCB --schematic {{.ITEM | replace ".kicad_pcb" ".kicad_sch"}} --assembly ./panel/panel.kicad_pcb ./panel/production'
