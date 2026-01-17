@@ -721,11 +721,7 @@
     "netclass_patterns": [
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/FB"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/IN"
+        "pattern": "Board_0-/IO4"
       },
       {
         "netclass": "Board_0-Default",
@@ -737,15 +733,11 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-+3V3"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/V+"
-      },
-      {
-        "netclass": "Board_0-Default",
         "pattern": "Board_0-GND"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/IN"
       },
       {
         "netclass": "Board_0-Default",
@@ -753,7 +745,11 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/SW"
+        "pattern": "Board_0-/FB"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-+3V3"
       },
       {
         "netclass": "Board_0-Default",
@@ -761,11 +757,19 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/V-"
+        "pattern": "Board_0-/DBUS"
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/IO4"
+        "pattern": "Board_0-/SW"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/IO5"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-/V-"
       },
       {
         "netclass": "Board_0-Default",
@@ -773,59 +777,7 @@
       },
       {
         "netclass": "Board_0-Default",
-        "pattern": "Board_0-/DBUS"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-/IO5"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-+3V3"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/IO4"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/IN"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/IO5"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/DBUS"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U102-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/V+"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/V-"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/SW"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-unconnected-(U103-RT-Pad1)"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/DBUS_R"
-      },
-      {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-/FB"
+        "pattern": "Board_0-/V+"
       },
       {
         "netclass": "Board_1-Default",
@@ -833,35 +785,59 @@
       },
       {
         "netclass": "Board_1-Default",
+        "pattern": "Board_1-/IO5"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/SW"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U102-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/FB"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/V+"
+      },
+      {
+        "netclass": "Board_1-Default",
         "pattern": "Board_1-/BST"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-+3V3"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/DBUS"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/DBUS_R"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-unconnected-(U103-RT-Pad1)"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/IN"
+      },
+      {
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/IO4"
       },
       {
         "netclass": "Board_1-Default",
         "pattern": "Board_1-Net-(U103-SS)"
       },
       {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U103-RT-Pad1)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/SW"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-GND"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/FB"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-unconnected-(U102-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/IO4"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-/V-"
       },
       {
         "netclass": "Board_2-Default",
@@ -869,27 +845,7 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(U103-SS)"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/V-"
-      },
-      {
-        "netclass": "Board_2-Default",
         "pattern": "Board_2-/BST"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/DBUS_R"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/V+"
-      },
-      {
-        "netclass": "Board_2-Default",
-        "pattern": "Board_2-/DBUS"
       },
       {
         "netclass": "Board_2-Default",
@@ -900,44 +856,64 @@
         "pattern": "Board_2-/IO5"
       },
       {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/FB"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/V+"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/DBUS_R"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-Net-(U103-SS)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/SW"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U102-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/V-"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-unconnected-(U103-RT-Pad1)"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-GND"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/IO4"
+      },
+      {
+        "netclass": "Board_2-Default",
+        "pattern": "Board_2-/DBUS"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-unconnected-(U103-RT-Pad1)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/SW"
+      },
+      {
         "netclass": "Board_3-Default",
         "pattern": "Board_3-GND"
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-Net-(U103-SS)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/FB"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/IN"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/DBUS"
-      },
-      {
-        "netclass": "Board_3-Default",
         "pattern": "Board_3-/V+"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/BST"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/DBUS_R"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/IO5"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-/V-"
       },
       {
         "netclass": "Board_3-Default",
@@ -949,7 +925,27 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/SW"
+        "pattern": "Board_3-/BST"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-Net-(U103-SS)"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/DBUS"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/V-"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/DBUS_R"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/IN"
       },
       {
         "netclass": "Board_3-Default",
@@ -957,27 +953,15 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-unconnected-(U103-RT-Pad1)"
+        "pattern": "Board_3-/IO5"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/FB"
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-unconnected-(U102-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/V+"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-Net-(U103-SS)"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/IN"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/IO4"
+        "pattern": "Board_4-/DBUS"
       },
       {
         "netclass": "Board_4-Default",
@@ -985,19 +969,27 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/SW"
-      },
-      {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-/FB"
-      },
-      {
-        "netclass": "Board_4-Default",
         "pattern": "Board_4-GND"
       },
       {
         "netclass": "Board_4-Default",
+        "pattern": "Board_4-unconnected-(U102-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_4-Default",
         "pattern": "Board_4-/BST"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-Net-(U103-SS)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/IO4"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/SW"
       },
       {
         "netclass": "Board_4-Default",
@@ -1009,47 +1001,23 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/DBUS"
+        "pattern": "Board_4-/DBUS_R"
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/DBUS_R"
+        "pattern": "Board_4-/V+"
       },
       {
         "netclass": "Board_4-Default",
         "pattern": "Board_4-unconnected-(U103-RT-Pad1)"
       },
       {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/IO5"
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/FB"
       },
       {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/FB"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/V-"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/SW"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-GND"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/IO4"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-/DBUS"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-+3V3"
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/IN"
       },
       {
         "netclass": "Board_5-Default",
@@ -1057,7 +1025,19 @@
       },
       {
         "netclass": "Board_5-Default",
+        "pattern": "Board_5-/IO5"
+      },
+      {
+        "netclass": "Board_5-Default",
         "pattern": "Board_5-/IN"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-GND"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-+3V3"
       },
       {
         "netclass": "Board_5-Default",
@@ -1069,7 +1049,27 @@
       },
       {
         "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(U103-SS)"
+      },
+      {
+        "netclass": "Board_5-Default",
         "pattern": "Board_5-/BST"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/SW"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/IO4"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/V-"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-/FB"
       },
       {
         "netclass": "Board_5-Default",
@@ -1077,7 +1077,55 @@
       },
       {
         "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(U103-SS)"
+        "pattern": "Board_5-/DBUS"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-unconnected-(U103-RT-Pad1)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-GND"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/DBUS"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-+3V3"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/BST"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-Net-(U103-SS)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-unconnected-(U102-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/SW"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/IO4"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/DBUS_R"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/V+"
+      },
+      {
+        "netclass": "Board_6-Default",
+        "pattern": "Board_6-/V-"
       },
       {
         "netclass": "Board_6-Default",
@@ -1089,79 +1137,7 @@
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(U103-SS)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(U103-RT-Pad1)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/BST"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/V+"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/DBUS"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-GND"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/SW"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-+3V3"
-      },
-      {
-        "netclass": "Board_6-Default",
         "pattern": "Board_6-/IN"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-unconnected-(U102-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/DBUS_R"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/V-"
-      },
-      {
-        "netclass": "Board_6-Default",
-        "pattern": "Board_6-/IO4"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-unconnected-(U103-RT-Pad1)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/FB"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/IO4"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/IO5"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/V-"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-Net-(U103-SS)"
       },
       {
         "netclass": "Board_7-Default",
@@ -1169,15 +1145,23 @@
       },
       {
         "netclass": "Board_7-Default",
+        "pattern": "Board_7-GND"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/V+"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-unconnected-(U103-RT-Pad1)"
+      },
+      {
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/IO5"
+      },
+      {
+        "netclass": "Board_7-Default",
         "pattern": "Board_7-unconnected-(U102-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/SW"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-/DBUS"
       },
       {
         "netclass": "Board_7-Default",
@@ -1189,27 +1173,31 @@
       },
       {
         "netclass": "Board_7-Default",
+        "pattern": "Board_7-/FB"
+      },
+      {
+        "netclass": "Board_7-Default",
         "pattern": "Board_7-/IN"
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-/V+"
+        "pattern": "Board_7-/IO4"
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-GND"
+        "pattern": "Board_7-/SW"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/IN"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/V-"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/IO5"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-Net-(U103-SS)"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/SW"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/DBUS"
       },
       {
         "netclass": "Board_8-Default",
@@ -1217,7 +1205,7 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/FB"
+        "pattern": "Board_8-/IN"
       },
       {
         "netclass": "Board_8-Default",
@@ -1225,15 +1213,7 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/V+"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-/BST"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-GND"
+        "pattern": "Board_8-/V-"
       },
       {
         "netclass": "Board_8-Default",
@@ -1245,7 +1225,31 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/IO4"
+        "pattern": "Board_8-/V+"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/IO5"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-GND"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/SW"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/FB"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-/BST"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-+3V3"
       },
       {
         "netclass": "Board_8-Default",
@@ -1253,43 +1257,7 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/V-"
-      },
-      {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-+3V3"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-unconnected-(U102-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-/IO5"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-/DBUS_R"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-unconnected-(U103-RT-Pad1)"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-/SW"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-/IN"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-/V+"
-      },
-      {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-GND"
+        "pattern": "Board_8-/IO4"
       },
       {
         "netclass": "Board_9-Default",
@@ -1297,7 +1265,39 @@
       },
       {
         "netclass": "Board_9-Default",
+        "pattern": "Board_9-/BST"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/V+"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-unconnected-(U102-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-GND"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/DBUS"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/IO5"
+      },
+      {
+        "netclass": "Board_9-Default",
         "pattern": "Board_9-/V-"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/DBUS_R"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/SW"
       },
       {
         "netclass": "Board_9-Default",
@@ -1305,11 +1305,11 @@
       },
       {
         "netclass": "Board_9-Default",
-        "pattern": "Board_9-/BST"
+        "pattern": "Board_9-unconnected-(U103-RT-Pad1)"
       },
       {
         "netclass": "Board_9-Default",
-        "pattern": "Board_9-/IO4"
+        "pattern": "Board_9-/IN"
       },
       {
         "netclass": "Board_9-Default",
@@ -1317,23 +1317,7 @@
       },
       {
         "netclass": "Board_9-Default",
-        "pattern": "Board_9-/DBUS"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-GND"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-/BST"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-/IO4"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-/FB"
+        "pattern": "Board_9-/IO4"
       },
       {
         "netclass": "Board_10-Default",
@@ -1341,31 +1325,19 @@
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-/V+"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(U103-SS)"
-      },
-      {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-/IN"
-      },
-      {
-        "netclass": "Board_10-Default",
         "pattern": "Board_10-unconnected-(U103-RT-Pad1)"
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-+3V3"
+        "pattern": "Board_10-/DBUS_R"
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-/V-"
+        "pattern": "Board_10-/V+"
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-/IO5"
+        "pattern": "Board_10-/IO4"
       },
       {
         "netclass": "Board_10-Default",
@@ -1373,35 +1345,51 @@
       },
       {
         "netclass": "Board_10-Default",
+        "pattern": "Board_10-/FB"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/IO5"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-GND"
+      },
+      {
+        "netclass": "Board_10-Default",
         "pattern": "Board_10-/DBUS"
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-/DBUS_R"
+        "pattern": "Board_10-/V-"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-Net-(U103-SS)"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-+3V3"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/IN"
+      },
+      {
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/BST"
       },
       {
         "netclass": "Board_11-Default",
-        "pattern": "Board_11-/FB"
+        "pattern": "Board_11-Net-(U103-SS)"
       },
       {
         "netclass": "Board_11-Default",
-        "pattern": "Board_11-/SW"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-/IO4"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-unconnected-(U102-NC-Pad1)"
+        "pattern": "Board_11-+3V3"
       },
       {
         "netclass": "Board_11-Default",
         "pattern": "Board_11-GND"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-/V-"
       },
       {
         "netclass": "Board_11-Default",
@@ -1413,15 +1401,27 @@
       },
       {
         "netclass": "Board_11-Default",
-        "pattern": "Board_11-/DBUS"
-      },
-      {
-        "netclass": "Board_11-Default",
         "pattern": "Board_11-/IO5"
       },
       {
         "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(U103-SS)"
+        "pattern": "Board_11-unconnected-(U102-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/IO4"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/DBUS"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/FB"
+      },
+      {
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/V-"
       },
       {
         "netclass": "Board_11-Default",
@@ -1429,51 +1429,15 @@
       },
       {
         "netclass": "Board_11-Default",
-        "pattern": "Board_11-/IN"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-+3V3"
+        "pattern": "Board_11-/SW"
       },
       {
         "netclass": "Board_11-Default",
         "pattern": "Board_11-/V+"
       },
       {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-+3V3"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-/IN"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-/DBUS"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-unconnected-(U103-RT-Pad1)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-unconnected-(U102-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-/IO4"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-/V-"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(U103-SS)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-/SW"
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-/IN"
       },
       {
         "netclass": "Board_12-Default",
@@ -1481,11 +1445,31 @@
       },
       {
         "netclass": "Board_12-Default",
-        "pattern": "Board_12-/DBUS_R"
+        "pattern": "Board_12-/SW"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-/V+"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(U103-SS)"
       },
       {
         "netclass": "Board_12-Default",
         "pattern": "Board_12-/FB"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-unconnected-(U102-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-/DBUS"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-+3V3"
       },
       {
         "netclass": "Board_12-Default",
@@ -1497,27 +1481,23 @@
       },
       {
         "netclass": "Board_12-Default",
-        "pattern": "Board_12-/V+"
+        "pattern": "Board_12-/DBUS_R"
       },
       {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-/IO4"
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-unconnected-(U103-RT-Pad1)"
       },
       {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-/DBUS"
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-/IO4"
       },
       {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-+3V3"
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-/V-"
       },
       {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-/DBUS_R"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-Net-(U103-SS)"
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-/IN"
       },
       {
         "netclass": "Board_13-Default",
@@ -1525,15 +1505,23 @@
       },
       {
         "netclass": "Board_13-Default",
-        "pattern": "Board_13-/BST"
-      },
-      {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-/SW"
-      },
-      {
-        "netclass": "Board_13-Default",
         "pattern": "Board_13-/FB"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-/IO4"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-/DBUS_R"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-unconnected-(U103-RT-Pad1)"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-/BST"
       },
       {
         "netclass": "Board_13-Default",
@@ -1541,7 +1529,19 @@
       },
       {
         "netclass": "Board_13-Default",
-        "pattern": "Board_13-unconnected-(U103-RT-Pad1)"
+        "pattern": "Board_13-/V+"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-+3V3"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-/V-"
+      },
+      {
+        "netclass": "Board_13-Default",
+        "pattern": "Board_13-/DBUS"
       },
       {
         "netclass": "Board_13-Default",
@@ -1553,19 +1553,19 @@
       },
       {
         "netclass": "Board_13-Default",
-        "pattern": "Board_13-/V-"
+        "pattern": "Board_13-/SW"
       },
       {
         "netclass": "Board_13-Default",
-        "pattern": "Board_13-/V+"
+        "pattern": "Board_13-Net-(U103-SS)"
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-/IN"
+        "pattern": "Board_14-/IO5"
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-/DBUS"
+        "pattern": "Board_14-unconnected-(U102-NC-Pad1)"
       },
       {
         "netclass": "Board_14-Default",
@@ -1573,7 +1573,15 @@
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-/FB"
+        "pattern": "Board_14-/SW"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-/DBUS_R"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-/V+"
       },
       {
         "netclass": "Board_14-Default",
@@ -1585,11 +1593,15 @@
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-unconnected-(U102-NC-Pad1)"
+        "pattern": "Board_14-/V-"
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-/DBUS_R"
+        "pattern": "Board_14-/DBUS"
+      },
+      {
+        "netclass": "Board_14-Default",
+        "pattern": "Board_14-/FB"
       },
       {
         "netclass": "Board_14-Default",
@@ -1597,19 +1609,7 @@
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-/IO5"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-/V-"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(U103-SS)"
-      },
-      {
-        "netclass": "Board_14-Default",
-        "pattern": "Board_14-/SW"
+        "pattern": "Board_14-/IN"
       },
       {
         "netclass": "Board_14-Default",
@@ -1617,23 +1617,7 @@
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-/V+"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-unconnected-(U102-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-/DBUS"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-/FB"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-GND"
+        "pattern": "Board_14-Net-(U103-SS)"
       },
       {
         "netclass": "Board_15-Default",
@@ -1641,7 +1625,15 @@
       },
       {
         "netclass": "Board_15-Default",
+        "pattern": "Board_15-/BST"
+      },
+      {
+        "netclass": "Board_15-Default",
         "pattern": "Board_15-/V+"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-/FB"
       },
       {
         "netclass": "Board_15-Default",
@@ -1649,19 +1641,7 @@
       },
       {
         "netclass": "Board_15-Default",
-        "pattern": "Board_15-+3V3"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-/IO4"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-/SW"
-      },
-      {
-        "netclass": "Board_15-Default",
-        "pattern": "Board_15-/IN"
+        "pattern": "Board_15-GND"
       },
       {
         "netclass": "Board_15-Default",
@@ -1669,11 +1649,31 @@
       },
       {
         "netclass": "Board_15-Default",
-        "pattern": "Board_15-/BST"
+        "pattern": "Board_15-/V-"
       },
       {
         "netclass": "Board_15-Default",
-        "pattern": "Board_15-/V-"
+        "pattern": "Board_15-/SW"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-/IO4"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-/DBUS"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-unconnected-(U102-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-/IN"
+      },
+      {
+        "netclass": "Board_15-Default",
+        "pattern": "Board_15-+3V3"
       },
       {
         "netclass": "Board_15-Default",
@@ -1681,11 +1681,39 @@
       },
       {
         "netclass": "Board_16-Default",
-        "pattern": "Board_16-/V+"
+        "pattern": "Board_16-Net-(U103-SS)"
+      },
+      {
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-/IO5"
+      },
+      {
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-unconnected-(U103-RT-Pad1)"
       },
       {
         "netclass": "Board_16-Default",
         "pattern": "Board_16-unconnected-(U102-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-/V-"
+      },
+      {
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-/IN"
+      },
+      {
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-/BST"
+      },
+      {
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-+3V3"
+      },
+      {
+        "netclass": "Board_16-Default",
+        "pattern": "Board_16-/V+"
       },
       {
         "netclass": "Board_16-Default",
@@ -1697,43 +1725,15 @@
       },
       {
         "netclass": "Board_16-Default",
+        "pattern": "Board_16-/IO4"
+      },
+      {
+        "netclass": "Board_16-Default",
         "pattern": "Board_16-/DBUS"
       },
       {
         "netclass": "Board_16-Default",
         "pattern": "Board_16-/DBUS_R"
-      },
-      {
-        "netclass": "Board_16-Default",
-        "pattern": "Board_16-/BST"
-      },
-      {
-        "netclass": "Board_16-Default",
-        "pattern": "Board_16-/IN"
-      },
-      {
-        "netclass": "Board_16-Default",
-        "pattern": "Board_16-unconnected-(U103-RT-Pad1)"
-      },
-      {
-        "netclass": "Board_16-Default",
-        "pattern": "Board_16-/IO4"
-      },
-      {
-        "netclass": "Board_16-Default",
-        "pattern": "Board_16-Net-(U103-SS)"
-      },
-      {
-        "netclass": "Board_16-Default",
-        "pattern": "Board_16-+3V3"
-      },
-      {
-        "netclass": "Board_16-Default",
-        "pattern": "Board_16-/IO5"
-      },
-      {
-        "netclass": "Board_16-Default",
-        "pattern": "Board_16-/V-"
       },
       {
         "netclass": "Board_16-Default",
@@ -1745,11 +1745,23 @@
       },
       {
         "netclass": "Board_17-Default",
+        "pattern": "Board_17-+3V3"
+      },
+      {
+        "netclass": "Board_17-Default",
         "pattern": "Board_17-/BST"
       },
       {
         "netclass": "Board_17-Default",
-        "pattern": "Board_17-unconnected-(U103-RT-Pad1)"
+        "pattern": "Board_17-/IN"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-/IO4"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-Net-(U103-SS)"
       },
       {
         "netclass": "Board_17-Default",
@@ -1757,7 +1769,27 @@
       },
       {
         "netclass": "Board_17-Default",
+        "pattern": "Board_17-/V-"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-unconnected-(U103-RT-Pad1)"
+      },
+      {
+        "netclass": "Board_17-Default",
         "pattern": "Board_17-/IO5"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-GND"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-/V+"
+      },
+      {
+        "netclass": "Board_17-Default",
+        "pattern": "Board_17-/DBUS_R"
       },
       {
         "netclass": "Board_17-Default",
@@ -1768,40 +1800,28 @@
         "pattern": "Board_17-/FB"
       },
       {
-        "netclass": "Board_17-Default",
-        "pattern": "Board_17-/V+"
-      },
-      {
-        "netclass": "Board_17-Default",
-        "pattern": "Board_17-+3V3"
-      },
-      {
-        "netclass": "Board_17-Default",
-        "pattern": "Board_17-GND"
-      },
-      {
-        "netclass": "Board_17-Default",
-        "pattern": "Board_17-Net-(U103-SS)"
-      },
-      {
-        "netclass": "Board_17-Default",
-        "pattern": "Board_17-/V-"
-      },
-      {
-        "netclass": "Board_17-Default",
-        "pattern": "Board_17-/DBUS_R"
-      },
-      {
-        "netclass": "Board_17-Default",
-        "pattern": "Board_17-/IO4"
-      },
-      {
-        "netclass": "Board_17-Default",
-        "pattern": "Board_17-/IN"
+        "netclass": "Board_18-Default",
+        "pattern": "Board_18-/BST"
       },
       {
         "netclass": "Board_18-Default",
-        "pattern": "Board_18-/V-"
+        "pattern": "Board_18-/IO4"
+      },
+      {
+        "netclass": "Board_18-Default",
+        "pattern": "Board_18-Net-(U103-SS)"
+      },
+      {
+        "netclass": "Board_18-Default",
+        "pattern": "Board_18-GND"
+      },
+      {
+        "netclass": "Board_18-Default",
+        "pattern": "Board_18-/DBUS"
+      },
+      {
+        "netclass": "Board_18-Default",
+        "pattern": "Board_18-/DBUS_R"
       },
       {
         "netclass": "Board_18-Default",
@@ -1813,23 +1833,11 @@
       },
       {
         "netclass": "Board_18-Default",
-        "pattern": "Board_18-/IO4"
+        "pattern": "Board_18-/V+"
       },
       {
         "netclass": "Board_18-Default",
         "pattern": "Board_18-unconnected-(U103-RT-Pad1)"
-      },
-      {
-        "netclass": "Board_18-Default",
-        "pattern": "Board_18-/DBUS"
-      },
-      {
-        "netclass": "Board_18-Default",
-        "pattern": "Board_18-+3V3"
-      },
-      {
-        "netclass": "Board_18-Default",
-        "pattern": "Board_18-Net-(U103-SS)"
       },
       {
         "netclass": "Board_18-Default",
@@ -1841,11 +1849,7 @@
       },
       {
         "netclass": "Board_18-Default",
-        "pattern": "Board_18-GND"
-      },
-      {
-        "netclass": "Board_18-Default",
-        "pattern": "Board_18-/BST"
+        "pattern": "Board_18-+3V3"
       },
       {
         "netclass": "Board_18-Default",
@@ -1853,39 +1857,7 @@
       },
       {
         "netclass": "Board_18-Default",
-        "pattern": "Board_18-/V+"
-      },
-      {
-        "netclass": "Board_18-Default",
-        "pattern": "Board_18-/DBUS_R"
-      },
-      {
-        "netclass": "Board_19-Default",
-        "pattern": "Board_19-/DBUS"
-      },
-      {
-        "netclass": "Board_19-Default",
-        "pattern": "Board_19-+3V3"
-      },
-      {
-        "netclass": "Board_19-Default",
-        "pattern": "Board_19-/BST"
-      },
-      {
-        "netclass": "Board_19-Default",
-        "pattern": "Board_19-/IN"
-      },
-      {
-        "netclass": "Board_19-Default",
-        "pattern": "Board_19-/IO5"
-      },
-      {
-        "netclass": "Board_19-Default",
-        "pattern": "Board_19-Net-(U103-SS)"
-      },
-      {
-        "netclass": "Board_19-Default",
-        "pattern": "Board_19-/IO4"
+        "pattern": "Board_18-/V-"
       },
       {
         "netclass": "Board_19-Default",
@@ -1893,23 +1865,15 @@
       },
       {
         "netclass": "Board_19-Default",
-        "pattern": "Board_19-/FB"
+        "pattern": "Board_19-/IN"
       },
       {
         "netclass": "Board_19-Default",
-        "pattern": "Board_19-unconnected-(U102-NC-Pad1)"
+        "pattern": "Board_19-/BST"
       },
       {
         "netclass": "Board_19-Default",
-        "pattern": "Board_19-/DBUS_R"
-      },
-      {
-        "netclass": "Board_19-Default",
-        "pattern": "Board_19-/V+"
-      },
-      {
-        "netclass": "Board_19-Default",
-        "pattern": "Board_19-/V-"
+        "pattern": "Board_19-/IO5"
       },
       {
         "netclass": "Board_19-Default",
@@ -1917,7 +1881,79 @@
       },
       {
         "netclass": "Board_19-Default",
+        "pattern": "Board_19-/V-"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-/V+"
+      },
+      {
+        "netclass": "Board_19-Default",
         "pattern": "Board_19-unconnected-(U103-RT-Pad1)"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-/IO4"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-/FB"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-/DBUS_R"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-+3V3"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-unconnected-(U102-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-/DBUS"
+      },
+      {
+        "netclass": "Board_19-Default",
+        "pattern": "Board_19-Net-(U103-SS)"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-/V+"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-/FB"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-/IO5"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-/IN"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-/SW"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-+3V3"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-unconnected-(U103-RT-Pad1)"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-Net-(U103-SS)"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-unconnected-(U102-NC-Pad1)"
       },
       {
         "netclass": "Board_20-Default",
@@ -1925,7 +1961,11 @@
       },
       {
         "netclass": "Board_20-Default",
-        "pattern": "Board_20-/SW"
+        "pattern": "Board_20-/DBUS_R"
+      },
+      {
+        "netclass": "Board_20-Default",
+        "pattern": "Board_20-/BST"
       },
       {
         "netclass": "Board_20-Default",
@@ -1937,91 +1977,7 @@
       },
       {
         "netclass": "Board_20-Default",
-        "pattern": "Board_20-/IO5"
-      },
-      {
-        "netclass": "Board_20-Default",
-        "pattern": "Board_20-unconnected-(U103-RT-Pad1)"
-      },
-      {
-        "netclass": "Board_20-Default",
         "pattern": "Board_20-/V-"
-      },
-      {
-        "netclass": "Board_20-Default",
-        "pattern": "Board_20-/IN"
-      },
-      {
-        "netclass": "Board_20-Default",
-        "pattern": "Board_20-+3V3"
-      },
-      {
-        "netclass": "Board_20-Default",
-        "pattern": "Board_20-/BST"
-      },
-      {
-        "netclass": "Board_20-Default",
-        "pattern": "Board_20-Net-(U103-SS)"
-      },
-      {
-        "netclass": "Board_20-Default",
-        "pattern": "Board_20-/FB"
-      },
-      {
-        "netclass": "Board_20-Default",
-        "pattern": "Board_20-/V+"
-      },
-      {
-        "netclass": "Board_20-Default",
-        "pattern": "Board_20-/DBUS_R"
-      },
-      {
-        "netclass": "Board_20-Default",
-        "pattern": "Board_20-unconnected-(U102-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_21-Default",
-        "pattern": "Board_21-/SW"
-      },
-      {
-        "netclass": "Board_21-Default",
-        "pattern": "Board_21-/V-"
-      },
-      {
-        "netclass": "Board_21-Default",
-        "pattern": "Board_21-+3V3"
-      },
-      {
-        "netclass": "Board_21-Default",
-        "pattern": "Board_21-/DBUS_R"
-      },
-      {
-        "netclass": "Board_21-Default",
-        "pattern": "Board_21-/IO4"
-      },
-      {
-        "netclass": "Board_21-Default",
-        "pattern": "Board_21-/BST"
-      },
-      {
-        "netclass": "Board_21-Default",
-        "pattern": "Board_21-GND"
-      },
-      {
-        "netclass": "Board_21-Default",
-        "pattern": "Board_21-unconnected-(U103-RT-Pad1)"
-      },
-      {
-        "netclass": "Board_21-Default",
-        "pattern": "Board_21-/DBUS"
-      },
-      {
-        "netclass": "Board_21-Default",
-        "pattern": "Board_21-/IO5"
-      },
-      {
-        "netclass": "Board_21-Default",
-        "pattern": "Board_21-unconnected-(U102-NC-Pad1)"
       },
       {
         "netclass": "Board_21-Default",
@@ -2029,7 +1985,47 @@
       },
       {
         "netclass": "Board_21-Default",
+        "pattern": "Board_21-+3V3"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-/DBUS"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-Net-(U103-SS)"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-/V-"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-/BST"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-unconnected-(U102-NC-Pad1)"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-unconnected-(U103-RT-Pad1)"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-/DBUS_R"
+      },
+      {
+        "netclass": "Board_21-Default",
         "pattern": "Board_21-/IN"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-/IO5"
+      },
+      {
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-GND"
       },
       {
         "netclass": "Board_21-Default",
@@ -2037,19 +2033,11 @@
       },
       {
         "netclass": "Board_21-Default",
-        "pattern": "Board_21-Net-(U103-SS)"
+        "pattern": "Board_21-/IO4"
       },
       {
-        "netclass": "Board_22-Default",
-        "pattern": "Board_22-/SW"
-      },
-      {
-        "netclass": "Board_22-Default",
-        "pattern": "Board_22-/V+"
-      },
-      {
-        "netclass": "Board_22-Default",
-        "pattern": "Board_22-/IO5"
+        "netclass": "Board_21-Default",
+        "pattern": "Board_21-/SW"
       },
       {
         "netclass": "Board_22-Default",
@@ -2057,23 +2045,7 @@
       },
       {
         "netclass": "Board_22-Default",
-        "pattern": "Board_22-/DBUS"
-      },
-      {
-        "netclass": "Board_22-Default",
-        "pattern": "Board_22-/IN"
-      },
-      {
-        "netclass": "Board_22-Default",
-        "pattern": "Board_22-/BST"
-      },
-      {
-        "netclass": "Board_22-Default",
-        "pattern": "Board_22-unconnected-(U103-RT-Pad1)"
-      },
-      {
-        "netclass": "Board_22-Default",
-        "pattern": "Board_22-+3V3"
+        "pattern": "Board_22-/SW"
       },
       {
         "netclass": "Board_22-Default",
@@ -2081,11 +2053,7 @@
       },
       {
         "netclass": "Board_22-Default",
-        "pattern": "Board_22-Net-(U103-SS)"
-      },
-      {
-        "netclass": "Board_22-Default",
-        "pattern": "Board_22-/FB"
+        "pattern": "Board_22-/IN"
       },
       {
         "netclass": "Board_22-Default",
@@ -2093,43 +2061,43 @@
       },
       {
         "netclass": "Board_22-Default",
+        "pattern": "Board_22-/FB"
+      },
+      {
+        "netclass": "Board_22-Default",
+        "pattern": "Board_22-/BST"
+      },
+      {
+        "netclass": "Board_22-Default",
         "pattern": "Board_22-/DBUS_R"
+      },
+      {
+        "netclass": "Board_22-Default",
+        "pattern": "Board_22-/DBUS"
       },
       {
         "netclass": "Board_22-Default",
         "pattern": "Board_22-/IO4"
       },
       {
-        "netclass": "Board_23-Default",
-        "pattern": "Board_23-/FB"
+        "netclass": "Board_22-Default",
+        "pattern": "Board_22-/IO5"
       },
       {
-        "netclass": "Board_23-Default",
-        "pattern": "Board_23-/BST"
+        "netclass": "Board_22-Default",
+        "pattern": "Board_22-Net-(U103-SS)"
       },
       {
-        "netclass": "Board_23-Default",
-        "pattern": "Board_23-/IO4"
+        "netclass": "Board_22-Default",
+        "pattern": "Board_22-unconnected-(U103-RT-Pad1)"
       },
       {
-        "netclass": "Board_23-Default",
-        "pattern": "Board_23-/IN"
+        "netclass": "Board_22-Default",
+        "pattern": "Board_22-/V+"
       },
       {
-        "netclass": "Board_23-Default",
-        "pattern": "Board_23-+3V3"
-      },
-      {
-        "netclass": "Board_23-Default",
-        "pattern": "Board_23-/DBUS_R"
-      },
-      {
-        "netclass": "Board_23-Default",
-        "pattern": "Board_23-unconnected-(U102-NC-Pad1)"
-      },
-      {
-        "netclass": "Board_23-Default",
-        "pattern": "Board_23-/IO5"
+        "netclass": "Board_22-Default",
+        "pattern": "Board_22-+3V3"
       },
       {
         "netclass": "Board_23-Default",
@@ -2137,19 +2105,7 @@
       },
       {
         "netclass": "Board_23-Default",
-        "pattern": "Board_23-unconnected-(U103-RT-Pad1)"
-      },
-      {
-        "netclass": "Board_23-Default",
-        "pattern": "Board_23-/V+"
-      },
-      {
-        "netclass": "Board_23-Default",
-        "pattern": "Board_23-GND"
-      },
-      {
-        "netclass": "Board_23-Default",
-        "pattern": "Board_23-Net-(U103-SS)"
+        "pattern": "Board_23-/IN"
       },
       {
         "netclass": "Board_23-Default",
@@ -2157,7 +2113,51 @@
       },
       {
         "netclass": "Board_23-Default",
+        "pattern": "Board_23-/IO5"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-/FB"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-+3V3"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-/V+"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-Net-(U103-SS)"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-/BST"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-/DBUS_R"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-GND"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-unconnected-(U103-RT-Pad1)"
+      },
+      {
+        "netclass": "Board_23-Default",
         "pattern": "Board_23-/DBUS"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-/IO4"
+      },
+      {
+        "netclass": "Board_23-Default",
+        "pattern": "Board_23-unconnected-(U102-NC-Pad1)"
       }
     ]
   },

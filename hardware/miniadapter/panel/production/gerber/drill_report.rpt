@@ -1,5 +1,5 @@
 Drill report for panel.kicad_pcb
-Created on 2026-01-17T18:06:18+0100
+Created on 2026-01-17T19:17:04+0100
 
 Copper Layer Stackup:
     =============================================================
@@ -10,10 +10,10 @@ Copper Layer Stackup:
 Drill file 'panel-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.250mm  0.0098"  (528 holes)
+    T1  0.250mm  0.0098"  (552 holes)
     T2  0.300mm  0.0118"  (96 holes)
 
-    Total plated holes count 624
+    Total plated holes count 648
 
 
 Drill file 'panel-NPTH.drl' contains
